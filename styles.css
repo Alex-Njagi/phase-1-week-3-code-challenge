@@ -1,0 +1,57 @@
+h1 {
+    background-color: rgb(229, 9, 20);
+    margin: -10px;
+    padding: 50px;
+}
+
+body {
+    background-color: black;
+}
+
+.movieList{
+    margin: 0px;
+    margin-left: -10px;
+    margin-right: 200px;
+    padding: 10px;
+    margin-right: -30px;
+    text-align:left;
+    background-color: rgb(229, 9, 20);
+    color: black;
+    position: relative;
+    display: flex;
+    width: 200px;
+    transition: color .3s;
+}
+.movieList:hover{
+    cursor: pointer;
+    color: white;
+}
+
+#displayMovies{
+    margin-left: 50px;
+    text-align: center;
+}
+
+.movieTitle {
+    margin: 0px;
+    color: white;
+}
+
+.moviePoster {
+    width: 500px;
+    height: 400px;
+}
+
+.buyTickets {
+    display: inline-block;
+    border-style: none;
+    text-align: center;
+    background-color: red;
+    color: beige;
+    transition: background-color .4s, color .4s;
+}
+.buyTickets:hover {
+    cursor: pointer;
+    background-color: beige;
+    color: red;
+}
